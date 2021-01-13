@@ -6,15 +6,45 @@
         grid-template-columns: repeat(1, 1fr);
     }
 } */
-@media (max-width:668px){
-    .top-players, .courses{
-        grid-template-columns: repeat(1, 1fr);
+@media (max-width: 668px) {
+    .top-players,
+    .courses {
+      grid-template-columns: repeat(1, 1fr);
+      place-items: center;
     }
-    .blog{
-        display: block;
+    .blog {
+      display: block;
     }
-    .blog-article{
-        /* grid-template-columns: repeat(1, 1fr); */
-        display: block;
+    .blog-article {
+      /* grid-template-columns: repeat(1, 1fr); */
+      display: block;
     }
-}
+  }
+  @media (max-width: 992px) {
+    .top-players,
+    .courses {
+      grid-template-columns: repeat(2, 1fr);
+      place-items: center;
+    }
+    .blog {
+      display: block;
+    }
+    .blog-article {
+      /* grid-template-columns: repeat(1, 1fr); */
+      display: block;
+    }
+  }
+  @media (max-width: 668px) {
+    .top-players,
+    .courses {
+      grid-template-columns: repeat(1, 1fr);
+      place-items: center;
+    }
+    .blog {
+      display: block;
+    }
+    .blog-article {
+      /* grid-template-columns: repeat(1, 1fr); */
+      display: block;
+    }
+  }
